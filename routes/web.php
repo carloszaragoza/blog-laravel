@@ -22,4 +22,6 @@ Route::get('/home', 'HomeController@index');
 //Route::get('/tweets', 'TweetController@index');
 Route::resource("tweets","TweetController");
 
+Route::resource("students","StudentController");
+
 
